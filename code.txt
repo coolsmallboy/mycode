@@ -1,2 +1,4 @@
 创建了一个新的txt文件
 this is a second time
+this is a new line
+zhe shi dev zhong de 
