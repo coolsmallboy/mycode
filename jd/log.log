@@ -1,0 +1,22 @@
+2021-06-29 15:40:50 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.ivsky.com/tupian/chuangyisucai_t19624/index_2.html>
+Traceback (most recent call last):
+  File "d:\mycode\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "d:\mycode\lib\site-packages\scrapy\core\downloader\middleware.py", line 38, in process_request
+    response = yield method(request=request, spider=spider)
+  File "D:\MyCode\lianxi\jd\jd\middlewares.py", line 95, in process_request
+    self.getIp()
+  File "D:\MyCode\lianxi\jd\jd\middlewares.py", line 39, in getIp
+    'ip': eve_ip['ip'],
+TypeError: string indices must be integers
+2021-07-01 00:15:48 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.ivsky.com/tupian/chuangyisucai_t19624/index_4.html>
+Traceback (most recent call last):
+  File "d:\mycode\lib\site-packages\twisted\internet\defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "d:\mycode\lib\site-packages\scrapy\core\downloader\middleware.py", line 38, in process_request
+    response = yield method(request=request, spider=spider)
+  File "D:\MyCode\lianxi\jd\jd\middlewares.py", line 96, in process_request
+    self.getIp()        # 取ip数据
+  File "D:\MyCode\lianxi\jd\jd\middlewares.py", line 39, in getIp
+    'ip': eve_ip['ip'],
+TypeError: string indices must be integers
