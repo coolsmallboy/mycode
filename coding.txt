@@ -1,7 +1,0 @@
-创建了一个新的txt文件
-this is a second time
-这是master中的
-this is a new line
-修改了一次
-zhe shi dev zhong de
-新的分支上
