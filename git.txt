@@ -1,0 +1,14 @@
+上传本地文件到github的步骤：
+  1. 在github上先创建一个仓库，在本地下载安装一个git
+  2. 在本地项目的文件夹中，右键点击git bash here 之后，输入命令git init来初始化一个git管理仓库。
+  3. 将机器的ssh公钥和github账户绑定。
+  4. 使用命令git clone + 项目ssh链接，把github上的项目克隆到本地。
+  5. 项目完成后，git add . (.代表文件夹下所有文件，也可以把点换成具体项目名称)，添加到暂存区。
+  6. git commit -m 'updateProject' 提交。
+  7. git push origin master(master也可以是其他命名的分支名称) 把本地代码推送到远程分支上。
+
+  另外：
+   可以用本地分支去跟踪远程服务器分支：
+   git branch --set-upstream-to=origin/master1 master2 (master1远程分支名称, master2本地分支名称)
+   跟踪之后，在最后推送这步，只需要git push 即可。
+   拉取代码也只需要git pull。
